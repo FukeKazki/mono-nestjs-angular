@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor='let todo of todos'>
+    <p>{{todo.id}}</p>
+    <input id='todo-name' [(ngModel)]='todo.name'/>
+  </li>
+</ul>
